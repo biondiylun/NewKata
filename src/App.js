@@ -6,17 +6,36 @@ import buttonType from './buttonType'
 class App extends React.Component{
   constructor() {
       super()
-      this.state = {}
+      this.state = {
+        storedValue: 0,
+        currentValue: 0,
+        buttonComponents: buttonType,
+        field: ""
+      }
+      this.updateCurrentNumber = this.updateCurrentNumber.bind(this)
+      this.handleButtonClick = this.handleButtonClick.bind(this)
+  }
+
+  updateCurrentNumber(event){
+    this.setState({
+      currentValue: event.target.value
+    });
+  }
+
+  handleButtonClick(event){
+      this.setState({
+        storedValue: this.currentValue,
+        currentValue: 0
+      }) 
   }
 
   render(){
-    const buttonComponents = buttonType.map(mathType => <CalcButton key={mathType.id} calcButton={mathType}/>)
-    const currentValue = 0;
-    const adjacentValue = 0;
+    const buttonComponents = this.state.buttonComponents.map(mathType => <CalcButton key={mathType.id} calcButton={mathType}/>)
     return (
       <div>
-        <p>{currentValue}</p>
-        <input type="text" name="enterValue"></input>
+        <p>Stored Number:{this.state.storedValue}</p>
+        <p>Current Number:{this.state.currentValue}</p>
+        <input type="text" name="enterValue" onChange={this.updateCurrentNumber}/>
         <p>{buttonComponents}</p>
       </div>
     )
