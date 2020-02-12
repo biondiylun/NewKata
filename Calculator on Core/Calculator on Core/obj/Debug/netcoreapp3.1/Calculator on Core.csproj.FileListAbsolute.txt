@@ -1,0 +1,11 @@
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.exe
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.deps.json
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.runtimeconfig.json
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.runtimeconfig.dev.json
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.dll
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\bin\Debug\netcoreapp3.1\Calculator on Core.pdb
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\obj\Debug\netcoreapp3.1\Calculator on Core.csprojAssemblyReference.cache
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\obj\Debug\netcoreapp3.1\Calculator on Core.AssemblyInfoInputs.cache
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\obj\Debug\netcoreapp3.1\Calculator on Core.AssemblyInfo.cs
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\obj\Debug\netcoreapp3.1\Calculator on Core.dll
+C:\Users\biondil\source\repos\Calculator on Core\Calculator on Core\obj\Debug\netcoreapp3.1\Calculator on Core.pdb
