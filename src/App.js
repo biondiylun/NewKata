@@ -1,20 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CalcButton from './CalcButton'
+import buttonType from './buttonType'
 
-function App() {
-  const number = 10;
-  function increment() {
-    number++
+class App extends React.Component{
+  constructor() {
+      super()
+      this.state = {}
   }
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>{number}</p>
-        <button onclick="increment()">ABC</button>
-      </header>
-    </div>
-  );
+
+  render(){
+    const buttonComponents = buttonType.map(mathType => <CalcButton key={mathType.id} calcButton={mathType}/>)
+    const currentValue = 0;
+    const adjacentValue = 0;
+    return (
+      <div>
+        <p>{currentValue}</p>
+        <input type="text" name="enterValue"></input>
+        <p>{buttonComponents}</p>
+      </div>
+    )
+  }
 }
 
 export default App;

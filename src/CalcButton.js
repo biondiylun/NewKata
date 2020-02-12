@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react"
 
-function CalcButton(props) {
-    return (        
-    <div className="calcbutton">
-        <button> value ={props.value}</button>
-    </div>
-    )
+class CalcButton extends React.Component{
+    render(){
+        return (
+            <button key={this.props.calcButton.id}>{this.props.calcButton.symbol}</button>
+        )
+    }
 }
+
+export default CalcButton
